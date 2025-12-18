@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+.header {
+  background: #111;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 40px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.hero, .cards, .upload, .welcome {
+  text-align: center;
+  padding: 20px;
+}
+
+.hero img,
+.cards img,
+.upload img,
+.welcome img {
+  width: 100%;
+  max-width: 600px;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  }
